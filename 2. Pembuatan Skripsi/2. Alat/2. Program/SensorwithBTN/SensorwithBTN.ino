@@ -1,6 +1,6 @@
 // Pin Definitions
-const int buttonIncreasePin = A2;
-const int buttonDecreasePin = A4;
+const int buttonIncreasePin = 4;
+const int buttonDecreasePin = 3;
 
 // Global Variables
 int value = 50;                 // Current value
@@ -10,7 +10,7 @@ const int limitValueDown = 50;  // Desired limit value
 //Sensor Setup
 #include <OneWire.h>
 #include <DallasTemperature.h>
-#define ONE_WIRE_BUS A5
+#define ONE_WIRE_BUS 5
 
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
@@ -68,6 +68,6 @@ void getData() {
   sensors.requestTemperatures();  // Send the command to get temperatures
   // After we got the temperatures, we can print them here.
   // We use the function ByIndex, and as an example get the temperature from the first sensor only.
-  float tempC = sensors.getTempCByIndex(0);
+  int tempC = sensors.getTempCByIndex(0);
   Serial.println(tempC);
 }

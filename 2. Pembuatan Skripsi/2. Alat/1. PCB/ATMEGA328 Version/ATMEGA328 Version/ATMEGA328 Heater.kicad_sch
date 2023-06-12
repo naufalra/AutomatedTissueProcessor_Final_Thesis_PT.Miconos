@@ -3702,7 +3702,7 @@
     )
     (pin "1" (uuid 43013bd1-e4c4-4b28-aa12-5519e1bbd589))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR010") (unit 1)
         )
@@ -3727,7 +3727,7 @@
     )
     (pin "1" (uuid 12d9b77b-1a60-44d8-adfe-d2a44ea7c70b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR08") (unit 1)
         )
@@ -3758,34 +3758,9 @@
     (pin "1" (uuid 06958a03-e478-45a0-9a1a-f0e8a25372a3))
     (pin "2" (uuid 40c412eb-a939-42d6-9463-888be383592f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 187.706 110.998 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 076a0bc9-64c2-4e63-80a8-7aa77b4ece3b)
-    (property "Reference" "#PWR014" (at 187.706 117.348 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 190.5 110.744 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 187.706 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 187.706 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1f7818f4-eadc-40cb-b1e6-ffcb87c2a67c))
-    (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
-        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
-          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3810,7 +3785,7 @@
     (pin "2" (uuid 87b960dc-b8d5-4d7e-b291-a3c8d95ab177))
     (pin "3" (uuid 5b576a3b-ccb8-4aab-8ae1-e9b5d56fb356))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "J2") (unit 1)
         )
@@ -3835,34 +3810,9 @@
     )
     (pin "1" (uuid 45c260c7-9289-4392-b556-5e06abbc3691))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 197.358 110.998 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0fce76c2-70e1-4e89-a7f7-a74b637a89a7)
-    (property "Reference" "#PWR018" (at 197.358 117.348 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 200.152 110.744 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 197.358 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 197.358 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ca1234f-3747-4341-8888-956b949f442e))
-    (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
-        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3885,7 +3835,7 @@
     )
     (pin "1" (uuid 1106930d-28cb-441a-8b58-00e195a14a0e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR015") (unit 1)
         )
@@ -3899,7 +3849,7 @@
     (property "Reference" "R21" (at 267.462 103.886 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 107.696 90)
+    (property "Value" "510" (at 267.97 107.696 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 105.664 0)
@@ -3911,7 +3861,7 @@
     (pin "1" (uuid fd7f8afa-4313-49f3-aa22-a60753353b1a))
     (pin "2" (uuid 5565d063-ad8b-4dd9-8ca9-50d3ac53325d))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R21") (unit 1)
         )
@@ -3935,7 +3885,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "sHe4") (unit 1)
         )
@@ -3966,7 +3916,7 @@
     (pin "1" (uuid ffe0cb77-13c2-43a6-8582-0aca304240e9))
     (pin "2" (uuid 8977dcab-3103-4f51-ba45-a25ee5a9b689))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C5") (unit 1)
         )
@@ -3996,7 +3946,7 @@
     )
     (pin "1" (uuid 401c1f8c-3a06-483a-b322-af50493f1760))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR022") (unit 1)
         )
@@ -4010,7 +3960,7 @@
     (property "Reference" "R8" (at 185.928 108.204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100" (at 189.738 107.696 90)
+    (property "Value" "1K" (at 189.738 107.696 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 187.706 107.696 0)
@@ -4022,7 +3972,7 @@
     (pin "1" (uuid ac32b09a-b2db-4bac-a2a6-3c7bf447c4d4))
     (pin "2" (uuid 784dd2f5-0009-4cf0-bf8d-01caf674278d))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R8") (unit 1)
         )
@@ -4036,7 +3986,7 @@
     (property "Reference" "R23" (at 106.426 140.462 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (at 109.982 141.224 90)
+    (property "Value" "4K7" (at 109.982 141.224 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 107.95 141.732 0)
@@ -4048,7 +3998,7 @@
     (pin "1" (uuid 0304a1ec-e411-4b7f-9624-be441573721a))
     (pin "2" (uuid d3c61872-9442-4151-9686-81abb607454b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R23") (unit 1)
         )
@@ -4073,7 +4023,7 @@
     )
     (pin "1" (uuid 96123148-da8d-43e8-92cd-b9f8318bc410))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR038") (unit 1)
         )
@@ -4103,7 +4053,7 @@
     )
     (pin "1" (uuid 1ab2f500-804b-4929-a571-59839d185842))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR02") (unit 1)
         )
@@ -4134,7 +4084,7 @@
     (pin "1" (uuid 7677d884-9315-4ef2-bcb7-c0ffd45fd70e))
     (pin "2" (uuid 54d99a28-9f67-4613-98b8-89e284df14f4))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "D9") (unit 1)
         )
@@ -4160,7 +4110,7 @@
     (pin "1" (uuid 735692c1-1740-4e46-8778-1dfc51c706b6))
     (pin "2" (uuid 59d3dc18-cb46-4a35-a53d-6915d868dbf9))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "J1") (unit 1)
         )
@@ -4187,7 +4137,7 @@
     (pin "2" (uuid 25da0bef-387c-448a-a95b-5fef1f981ac8))
     (pin "3" (uuid 4eda7dd2-fff7-4ff4-9049-6c0c2cf7bd49))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "Q2") (unit 1)
         )
@@ -4212,7 +4162,7 @@
     )
     (pin "1" (uuid fce4f85e-f160-4404-beda-e5a8d1f50548))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR04") (unit 1)
         )
@@ -4239,7 +4189,7 @@
     (pin "2" (uuid e6b6a57b-af69-41a7-997d-63a47efdbc0b))
     (pin "3" (uuid 7ad20059-9ec7-45d3-a9b0-0390db2866c0))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "Q3") (unit 1)
         )
@@ -4265,7 +4215,7 @@
     (pin "1" (uuid e1d5c862-bf96-4724-b884-287c69ed6df9))
     (pin "2" (uuid 3f52b454-f269-4054-9916-7c0d2bbca653))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R25") (unit 1)
         )
@@ -4279,7 +4229,7 @@
     (property "Reference" "R22" (at 267.462 106.426 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 110.236 90)
+    (property "Value" "510" (at 267.97 110.236 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 108.204 0)
@@ -4291,7 +4241,7 @@
     (pin "1" (uuid 7ce9637d-f241-46bd-b6b3-2b0eb4eb2def))
     (pin "2" (uuid 463d0b52-ba0e-4529-bcd0-569929e7c78c))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R22") (unit 1)
         )
@@ -4316,7 +4266,7 @@
     )
     (pin "1" (uuid 424d4bcf-2cc8-4542-a143-c2da844b6428))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR024") (unit 1)
         )
@@ -4342,7 +4292,7 @@
     (pin "1" (uuid 648fc277-b03d-4989-a5b6-07d123880f2b))
     (pin "2" (uuid 1f32b36c-e073-4bb2-ab5f-287d8eb81a76))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C7") (unit 1)
         )
@@ -4372,7 +4322,7 @@
     )
     (pin "1" (uuid 694dc1ea-243f-4f25-87d0-5a4a13a32c66))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR019") (unit 1)
         )
@@ -4398,7 +4348,7 @@
     (pin "1" (uuid 9f60e0a7-4a1c-4be6-8c5a-bb81501cc374))
     (pin "2" (uuid 5500e5b5-c1a1-44c5-b9ec-e92fea838363))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R4") (unit 1)
         )
@@ -4424,7 +4374,7 @@
     (pin "1" (uuid 1a7eca85-0da3-4c0f-a7f8-f72733941835))
     (pin "2" (uuid 9827859e-509d-410c-b49a-29adf7f08ea7))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C12") (unit 1)
         )
@@ -4437,13 +4387,38 @@
     )
   )
 
+  (symbol (lib_id "power:VCC") (at 207.01 110.998 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 429d4201-1816-43cc-a990-2e25841812f3)
+    (property "Reference" "#PWR020" (at 207.01 107.188 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 204.724 110.998 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 207.01 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 207.01 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f02dd5d9-0f94-4c96-ace2-618b69a72cee))
+    (instances
+      (project "ATMEGA328 Heater"
+        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small_US") (at 267.97 98.044 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48864773-e920-462c-a04b-db0754b36da6)
     (property "Reference" "R18" (at 267.462 96.266 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 100.076 90)
+    (property "Value" "510" (at 267.97 100.076 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 98.044 0)
@@ -4455,7 +4430,7 @@
     (pin "1" (uuid 91046580-2594-4bb8-9032-3dde7e8f374d))
     (pin "2" (uuid 9d62cb98-0930-4129-b986-5eb51d31bd99))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R18") (unit 1)
         )
@@ -4481,7 +4456,7 @@
     (pin "1" (uuid 9931f794-2583-4bf0-92c0-1bce9e172ed3))
     (pin "2" (uuid e6c10317-f1e7-4941-a6f8-4816b4a45360))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C9") (unit 1)
         )
@@ -4506,7 +4481,7 @@
     )
     (pin "1" (uuid 07bc8e29-5ea3-4aa6-97b6-ce9dfbd3bf7c))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR025") (unit 1)
         )
@@ -4537,7 +4512,7 @@
     (pin "1" (uuid a27aca33-cf14-4d52-8a20-ae435aa8d4da))
     (pin "2" (uuid 869378e0-8b4d-4a9a-91e6-cfca747a602f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "JP1") (unit 1)
         )
@@ -4562,7 +4537,7 @@
     )
     (pin "1" (uuid db9694ac-76b0-49b4-b05c-657627e3355d))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR021") (unit 1)
         )
@@ -4587,7 +4562,7 @@
     )
     (pin "1" (uuid 4acc373b-3d94-4be6-a088-21c72f4fc811))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR032") (unit 1)
         )
@@ -4618,7 +4593,7 @@
     (pin "1" (uuid ad6fb740-a334-48c4-8b58-16e7a1252a19))
     (pin "2" (uuid fe18f02f-e318-41bb-b876-a2fa536b49b5))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R1") (unit 1)
         )
@@ -4644,7 +4619,7 @@
     (pin "1" (uuid 2098f103-1701-43a1-b294-455684bafda0))
     (pin "2" (uuid 7e468389-fe04-4f67-86d6-6253d01d7519))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "SW2") (unit 1)
         )
@@ -4681,9 +4656,34 @@
     (pin "7" (uuid 6a895f27-7114-4907-9bed-06290276b8a9))
     (pin "8" (uuid 514dc953-5e9a-41ea-9a59-d012ebaaafc9))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "J6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 187.706 110.998 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 54a83b81-601e-432b-aaf0-f5ad71777b23)
+    (property "Reference" "#PWR014" (at 187.706 107.188 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 185.42 110.998 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 187.706 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 187.706 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid da11c346-c162-421f-82e9-5d203541056c))
+    (instances
+      (project "ATMEGA328 Heater"
+        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4706,7 +4706,7 @@
     )
     (pin "1" (uuid 2f083092-998f-4a54-bc6a-a0dc1fa3aac5))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR05") (unit 1)
         )
@@ -4725,7 +4725,7 @@
     (property "Reference" "R20" (at 267.462 101.346 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 105.156 90)
+    (property "Value" "510" (at 267.97 105.156 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 103.124 0)
@@ -4737,7 +4737,7 @@
     (pin "1" (uuid 1cd56541-3d5c-4e14-b316-b4db2539c4d0))
     (pin "2" (uuid 28a32328-b7e5-45fb-a2a9-30070958fd71))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R20") (unit 1)
         )
@@ -4751,7 +4751,7 @@
     (property "Reference" "R17" (at 267.462 93.726 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 97.536 90)
+    (property "Value" "510" (at 267.97 97.536 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 95.504 0)
@@ -4763,7 +4763,7 @@
     (pin "1" (uuid 95fed0ea-d4b6-42df-9055-e476257d741c))
     (pin "2" (uuid 215409df-e28e-444b-8f3b-95312e9d8087))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R17") (unit 1)
         )
@@ -4788,7 +4788,7 @@
     )
     (pin "1" (uuid 84a33bf2-78dd-4c94-89ed-317344fef13e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR026") (unit 1)
         )
@@ -4814,7 +4814,7 @@
     (pin "1" (uuid f9165a71-45ff-4135-bb80-3194b5334ffb))
     (pin "2" (uuid bae3f0a3-a188-4387-97f7-3f623a88984c))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R13") (unit 1)
         )
@@ -4840,7 +4840,7 @@
     (pin "1" (uuid 2f92fdc5-0ba4-48ee-b467-a0060dc2bde7))
     (pin "2" (uuid 36a75d77-1ec5-43b2-98b4-de4967769f19))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "F2") (unit 1)
         )
@@ -4871,7 +4871,7 @@
     (pin "1" (uuid 4b65473c-da67-4317-b2ef-4de043055f97))
     (pin "2" (uuid 40048340-0102-48c8-a2cb-f881e0a2381e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R7") (unit 1)
         )
@@ -4896,7 +4896,7 @@
     )
     (pin "1" (uuid 33adae37-dab2-495d-a0cd-1351ca9c17b5))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR028") (unit 1)
         )
@@ -4926,7 +4926,7 @@
     )
     (pin "1" (uuid 050feafc-0cbe-42a0-ae94-c7d288c9a1b9))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR013") (unit 1)
         )
@@ -4952,7 +4952,7 @@
     (pin "1" (uuid 41b0e6b5-d85b-4f2c-83d4-caf6308d37d8))
     (pin "2" (uuid 2685fccf-4edd-4b1f-9304-ae4c472ac290))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C10") (unit 1)
         )
@@ -4983,7 +4983,7 @@
     (pin "1" (uuid ee5e721b-cf96-4749-be56-ffd320dc53ee))
     (pin "2" (uuid 5d42f741-5781-4236-91a8-83883222a173))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C13") (unit 1)
         )
@@ -5013,7 +5013,7 @@
     )
     (pin "1" (uuid 97c7760c-f673-46a8-9393-a298205acf97))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR011") (unit 1)
         )
@@ -5039,7 +5039,7 @@
     (pin "1" (uuid fe22b59d-7323-451d-a63f-03bf1bd538d0))
     (pin "2" (uuid 7727ff99-ee34-4dc3-a1b6-31c68d4c5f31))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "SW3") (unit 1)
         )
@@ -5100,7 +5100,7 @@
     (pin "8" (uuid 0681581d-b924-4414-887a-6d601a2e26dd))
     (pin "9" (uuid 6079fc1a-4cc4-4ef4-847c-cd0571e7c5ab))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "U3") (unit 1)
         )
@@ -5108,6 +5108,31 @@
       (project "Elektronis ATMEGA"
         (path "/3e1ae371-5701-44e2-81a8-423f3eacc423"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 197.358 110.998 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6e9c41b4-3c42-4b53-8999-70bad1ed94b8)
+    (property "Reference" "#PWR018" (at 197.358 107.188 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 195.072 110.998 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 197.358 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 197.358 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid da460175-4d7d-41ed-be93-2ed82e0c8f4c))
+    (instances
+      (project "ATMEGA328 Heater"
+        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5131,7 +5156,7 @@
     (pin "1" (uuid 58f7f963-79a7-42d5-9364-4a75a07fef5c))
     (pin "2" (uuid 09977349-3655-4586-ae16-b4c6d0a33525))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "Y1") (unit 1)
         )
@@ -5161,7 +5186,7 @@
     )
     (pin "1" (uuid 393f8e00-863f-4642-ace9-ed675d1fd431))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR017") (unit 1)
         )
@@ -5186,7 +5211,7 @@
     )
     (pin "1" (uuid 72476eec-2c86-4289-9c7a-4444344c929b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR023") (unit 1)
         )
@@ -5211,7 +5236,7 @@
     )
     (pin "1" (uuid f6963126-e3f5-4949-a825-9338455604ea))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR033") (unit 1)
         )
@@ -5241,7 +5266,7 @@
     )
     (pin "1" (uuid 510bb8bd-96b7-4fac-b1f2-ef920d1c4cde))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR012") (unit 1)
         )
@@ -5273,7 +5298,7 @@
     (pin "1" (uuid e182ac42-3cdf-4056-86ef-bda48520e82b))
     (pin "2" (uuid 6e7107cf-e3b8-4d93-a33f-79e70095af42))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "D2") (unit 1)
         )
@@ -5299,7 +5324,7 @@
     (pin "1" (uuid a97c8a35-1ce9-4b93-8962-5a9625d3f4c9))
     (pin "2" (uuid 55cff0f2-e434-4dc6-80c7-d6fd8806269d))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C11") (unit 1)
         )
@@ -5329,7 +5354,7 @@
     )
     (pin "1" (uuid 701cb957-5ed9-4b9a-8eeb-bd55c6541088))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR09") (unit 1)
         )
@@ -5355,7 +5380,7 @@
     (pin "1" (uuid 58eafb3d-af1e-4753-8226-335ad83b08bf))
     (pin "2" (uuid 7d94038a-00ff-471b-a3bc-e8bc3b1f3d48))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R5") (unit 1)
         )
@@ -5379,7 +5404,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "sHe2") (unit 1)
         )
@@ -5398,7 +5423,7 @@
     (property "Reference" "R10" (at 195.58 108.204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100" (at 199.39 107.696 90)
+    (property "Value" "1K" (at 199.39 107.696 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 197.358 107.696 0)
@@ -5410,7 +5435,7 @@
     (pin "1" (uuid 5873bb22-285d-4cde-b837-b0e12fe41c30))
     (pin "2" (uuid 7e873464-7350-4eb9-8093-ad6321ebcabf))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R10") (unit 1)
         )
@@ -5436,7 +5461,7 @@
     (pin "1" (uuid 235f6711-1257-472b-a0ce-10ac37348183))
     (pin "2" (uuid bef1ddef-9f16-47f2-abdc-1d5f693898c7))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "J3") (unit 1)
         )
@@ -5473,7 +5498,7 @@
     (pin "8" (uuid b8474268-bcc9-4abf-b2a3-1db5a5152119))
     (pin "9" (uuid f110f67f-d7dd-431d-b8dc-8378d9404b84))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "K1") (unit 1)
         )
@@ -5499,7 +5524,7 @@
     (pin "1" (uuid 7f806be1-558b-4d10-91e6-d8737c530793))
     (pin "2" (uuid ea2c4477-1342-4a4c-a731-4d147988f749))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R12") (unit 1)
         )
@@ -5524,7 +5549,7 @@
     )
     (pin "1" (uuid fee3b252-72db-46c8-84bd-cd2c2ea90134))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR016") (unit 1)
         )
@@ -5551,7 +5576,7 @@
     (pin "2" (uuid 504c1984-7e84-4eeb-8ae0-20dbd47dce69))
     (pin "3" (uuid 031f162f-b08b-4a98-82cb-f8ccbeeae87c))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "Q4") (unit 1)
         )
@@ -5576,7 +5601,7 @@
     )
     (pin "1" (uuid 86b2bda3-5f78-4e0f-baa9-7ca92a0cb07b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR06") (unit 1)
         )
@@ -5602,7 +5627,7 @@
     (pin "1" (uuid d0befba9-a4fa-4e12-b7ea-bb89bcc6f7d2))
     (pin "2" (uuid 9eaa7eaf-585a-4da0-9336-2626f41a056b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R16") (unit 1)
         )
@@ -5628,7 +5653,7 @@
     (pin "1" (uuid 2d85fcc0-b83e-4c81-a5d7-aa4e7b141084))
     (pin "2" (uuid 5df54bb2-449e-42f4-b6a3-d4ae6ce75025))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C3") (unit 1)
         )
@@ -5654,7 +5679,7 @@
     (pin "1" (uuid 2313d784-f435-43c0-8d8d-86daea764442))
     (pin "2" (uuid f7839b9d-0338-47d2-bf7b-f12ff8a9757f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R24") (unit 1)
         )
@@ -5683,7 +5708,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "sHe1") (unit 1)
         )
@@ -5713,7 +5738,7 @@
     )
     (pin "1" (uuid 99228f06-8921-4c5e-8c5c-a882ca6501d4))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR07") (unit 1)
         )
@@ -5739,7 +5764,7 @@
     (pin "1" (uuid 1aa22baf-ba08-46c6-84c5-8bf091c164a1))
     (pin "2" (uuid 954d9cfe-3f74-41c0-ab4a-c1292f4ae41e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C1") (unit 1)
         )
@@ -5765,7 +5790,7 @@
     (pin "1" (uuid 1c36374f-d0bf-4374-bb81-1251c4c4982b))
     (pin "2" (uuid ce397b10-db55-4cd2-899e-e025d7e2a47a))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C14") (unit 1)
         )
@@ -5795,7 +5820,7 @@
     )
     (pin "1" (uuid 8324d116-f6a6-4c92-b593-d4ec216ca960))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR027") (unit 1)
         )
@@ -5822,7 +5847,7 @@
     (pin "2" (uuid 05e9ffe0-ccef-4922-92ed-e976bc81fb61))
     (pin "3" (uuid 18799cc9-5e36-4aa4-8394-2ed1b395ab61))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "Q1") (unit 1)
         )
@@ -5847,7 +5872,7 @@
     )
     (pin "1" (uuid 01d0c743-2270-4ccb-be92-7fa49faf80d7))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR039") (unit 1)
         )
@@ -5872,7 +5897,7 @@
     )
     (pin "1" (uuid ad2cadf8-e37e-4bd9-9ab9-3a86b514acc3))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR031") (unit 1)
         )
@@ -5886,7 +5911,7 @@
     (property "Reference" "R3" (at 267.462 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 94.996 90)
+    (property "Value" "510" (at 267.97 94.996 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 92.964 0)
@@ -5898,7 +5923,7 @@
     (pin "1" (uuid 44ec029c-a080-49e2-ab47-b31a7554a54c))
     (pin "2" (uuid 02393c02-5732-4b07-a257-8545bdafaee9))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R3") (unit 1)
         )
@@ -5923,7 +5948,7 @@
     )
     (pin "1" (uuid 9abc5d37-309d-4b2d-a0e2-b89c39fc8bc2))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR030") (unit 1)
         )
@@ -5949,7 +5974,7 @@
     (pin "1" (uuid 13462471-faf3-4cae-960e-ab11efd3f42a))
     (pin "2" (uuid fc7d6e96-39f9-4847-aa33-f85535b93b30))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C2") (unit 1)
         )
@@ -5975,7 +6000,7 @@
     (pin "1" (uuid cc63585f-9f18-4d81-acc5-ec99e8b17937))
     (pin "2" (uuid e299d475-decd-4ee0-ba81-8457043bf206))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C4") (unit 1)
         )
@@ -5999,7 +6024,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "sHe3") (unit 1)
         )
@@ -6033,7 +6058,7 @@
     (pin "4" (uuid bed9b846-b684-4512-9833-6fb3ad9f7ffe))
     (pin "5" (uuid 2a4a9a1b-1eba-4fc2-98fe-6128945bc73f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "U2") (unit 1)
         )
@@ -6058,7 +6083,7 @@
     )
     (pin "1" (uuid 4a38deee-dec8-4edb-b876-a69a216e841e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR01") (unit 1)
         )
@@ -6089,7 +6114,7 @@
     (pin "1" (uuid 65bd0518-68a2-4f37-9e73-4f6a1bc44083))
     (pin "2" (uuid 02429098-7640-4976-81d6-a502509f166e))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R9") (unit 1)
         )
@@ -6103,7 +6128,7 @@
     (property "Reference" "R11" (at 205.232 108.204 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100" (at 209.042 107.696 90)
+    (property "Value" "1k" (at 209.042 107.696 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 207.01 107.696 0)
@@ -6115,7 +6140,7 @@
     (pin "1" (uuid 589f0e06-26da-477c-9dcc-7500f02e70d9))
     (pin "2" (uuid 743b2824-afd1-41a1-97f0-88b11884b9c6))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R11") (unit 1)
         )
@@ -6140,7 +6165,7 @@
     )
     (pin "1" (uuid 9d2c23d4-7aa1-4c76-aedb-046426c3b69f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR03") (unit 1)
         )
@@ -6170,7 +6195,7 @@
     )
     (pin "1" (uuid bd2f72ac-745b-4f1d-a79d-6aff817dd46b))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR029") (unit 1)
         )
@@ -6201,7 +6226,7 @@
     (pin "1" (uuid 1437d876-cdcd-4a1b-bb42-9eb92c1ecb4b))
     (pin "2" (uuid a0b2c5d4-dfde-4376-b8a6-337e1137d915))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R2") (unit 1)
         )
@@ -6227,7 +6252,7 @@
     (pin "1" (uuid 4774d6ea-c15a-4d96-a5c0-6c49896705e2))
     (pin "2" (uuid 6c9c9765-0380-4006-a1af-fed0518a3915))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "SW1") (unit 1)
         )
@@ -6267,7 +6292,7 @@
     (pin "G" (uuid 66b86ce8-a69d-4eb2-b6fc-51f21e5f6911))
     (pin "dP" (uuid 5c217e5a-facb-4540-b4c5-22b2900177ca))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "U1") (unit 1)
         )
@@ -6293,34 +6318,9 @@
     (pin "1" (uuid 891793ef-e47a-42f8-8c8d-7d4b95354686))
     (pin "2" (uuid 53e9c967-80c2-4fbd-9faf-520e30fc97c2))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 207.01 110.998 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e83c5a03-aa70-43d6-9aa1-2f8d1b6dae21)
-    (property "Reference" "#PWR020" (at 207.01 117.348 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 209.804 110.744 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 207.01 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 207.01 110.998 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d27f11f4-3220-4673-be3f-01bb2ff0026e))
-    (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
-        (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
-          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6343,7 +6343,7 @@
     )
     (pin "1" (uuid 887c6cc3-9a77-40df-a008-526b820cf06f))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR036") (unit 1)
         )
@@ -6369,7 +6369,7 @@
     (pin "1" (uuid 0ed0d0cc-0389-4d5f-bf7d-f457e63a9ced))
     (pin "2" (uuid c9146514-0b7a-42a9-9227-98d6dcdfef2c))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "D3") (unit 1)
         )
@@ -6395,7 +6395,7 @@
     (pin "1" (uuid ee873a2a-26ab-4e91-acbc-b0093d68ebca))
     (pin "2" (uuid ec16af14-c3c3-474f-8733-df15c1d3b1ac))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R6") (unit 1)
         )
@@ -6425,7 +6425,7 @@
     (pin "5" (uuid bd5d1241-1df1-499c-82e4-10d944d590c7))
     (pin "6" (uuid 65041132-c3f1-435a-a147-ac0016fd1d70))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "J5") (unit 1)
         )
@@ -6444,7 +6444,7 @@
     (property "Reference" "R19" (at 267.462 98.806 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1K" (at 267.97 102.616 90)
+    (property "Value" "510" (at 267.97 102.616 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 267.97 100.584 0)
@@ -6456,7 +6456,7 @@
     (pin "1" (uuid 7eb0117c-c156-47f1-bcf4-6564fb84901d))
     (pin "2" (uuid 7586ea39-4ae7-4811-acd5-dc41a6ee5e3a))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "R19") (unit 1)
         )
@@ -6482,7 +6482,7 @@
     (pin "1" (uuid 8d7b8304-6c64-4309-b1af-a64b8cd67875))
     (pin "2" (uuid 43f8dad4-f960-4267-a807-9ba116b611d4))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "C15") (unit 1)
         )
@@ -6512,7 +6512,7 @@
     )
     (pin "1" (uuid 43880bb3-3b0a-43fc-8e69-3354aba2d926))
     (instances
-      (project "ATMEGA328 Heat Component of Tissue Processor"
+      (project "ATMEGA328 Heater"
         (path "/0b94647e-0d68-492d-82a4-159e29dae82e"
           (reference "#PWR037") (unit 1)
         )

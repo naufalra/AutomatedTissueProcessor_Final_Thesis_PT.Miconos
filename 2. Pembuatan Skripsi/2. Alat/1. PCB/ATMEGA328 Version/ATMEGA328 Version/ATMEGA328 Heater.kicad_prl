@@ -65,10 +65,10 @@
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "ATMEGA328 Heat Component of Tissue Processor.kicad_prl",
+    "filename": "ATMEGA328 Heater.kicad_prl",
     "version": 3
   },
   "project": {

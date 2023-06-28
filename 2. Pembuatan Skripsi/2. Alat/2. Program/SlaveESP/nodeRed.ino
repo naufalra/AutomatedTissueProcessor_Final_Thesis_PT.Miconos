@@ -59,7 +59,7 @@ void initWifi() {
     server.send(200, "text/plain", Sensor);
   });
 
-    // Relay Server
+  // Relay Server
   server.on("/relay", []() // http://localIPAddress/relay
   {
     //    int t = param;
@@ -73,6 +73,33 @@ void initWifi() {
     //    int h = sensor;
     Led = String(led);
     server.send(200, "text/plain", Led);
+  });
+
+
+
+
+  //KP server
+  server.on("/kp", []()  // http://localIPAddress/kp
+  {
+    //    int h = sensor;
+    KP = String(kp);
+    server.send(200, "text/plain", KP);
+  });
+
+  // KI Server
+  server.on("/ki", []() // http://localIPAddress/ki
+  {
+    //    int t = param;
+    KI = String(ki);
+    server.send(200, "text/plain", KI);
+  });
+
+  //KD server
+  server.on("/kd", []()  // http://localIPAddress/kd
+  {
+    //    int h = sensor;
+    KD = String(kd);
+    server.send(200, "text/plain", KD);
   });
 
   server.onNotFound(handleNotFound);

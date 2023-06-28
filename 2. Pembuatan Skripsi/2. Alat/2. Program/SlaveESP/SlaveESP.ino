@@ -3,8 +3,11 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* ssid = "Grace";
-const char* password = "yangkiri";
+//const char* ssid = "Grace";
+//const char* password = "yangkiri";
+
+const char* ssid = "BigDeal";
+const char* password = "nofreeloader";
 
 ESP8266WebServer server(80);
 
@@ -12,8 +15,11 @@ int param;  // Variable to store Sensor 1 value
 int sensor;  // Variable to store Sensor 2 value
 int relay;  // Variable to store Sensor 3 value
 int led;  // Variable to store Sensor 4 value
+int ki;
+int kp;
+int kd;
 
-String Param, Sensor, Relay, Led;
+String Param, Sensor, Relay, Led, KI, KP, KD;
 
 //String temp, hum;
 

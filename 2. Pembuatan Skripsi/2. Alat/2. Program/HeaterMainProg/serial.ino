@@ -1,15 +1,22 @@
-void sendSerial() {
-  Serial.write(251);
-  Serial.write(parameter);
-  Serial.write(temp);
-  Serial.write(relaystate);
-  Serial.write(ledstate);
-  Serial.write(252);
-}
 
+//unsigned long mulaitimer = 0;     // Variable to store the previous timestamp
+//const unsigned long waktukirim = 500;  // Interval in milliseconds between data retrievals
 
+//void serialDebug() //THIS WORKED
+//{
+//  //  Serial.print(251);
+//  Serial.print(parameter);
+//  Serial.print(",");
+//  Serial.print(temp);
+//  Serial.print(",");
+//  Serial.print(relaystate);
+//  Serial.print(",");
+//  Serial.println(ledstate);
+//  //  Serial.println(252);
+//}
 
-void serialDebug() {
+void serialDebug() //THIS TRIAL
+{
   //  Serial.print(251);
   Serial.print(parameter);
   Serial.print(",");
@@ -17,8 +24,62 @@ void serialDebug() {
   Serial.print(",");
   Serial.print(relaystate);
   Serial.print(",");
-  Serial.println(ledstate);
+  Serial.print(ledstate);
+  Serial.print(",");
+  Serial.print(valKp);
+  Serial.print(",");
+  Serial.print(valKi);
+  Serial.print(",");
+  Serial.println(valKd);
   //  Serial.println(252);
+}
+
+void sendtoSlave() //THIS WORKED
+{
+
+
+  Serial.print(parameter);
+  Serial.print(",");
+  Serial.print(temp);
+  Serial.print(",");
+  Serial.print(relaystate);
+  Serial.print(",");
+  Serial.println(ledstate);
+
+  //  sevseg.setNumber(parameter, 0);
+  //  Serial.println(parameter);
+  //  sevseg.refreshDisplay();  // Must run repeatedly
+}
+
+void sendtoSlavePID() //THIS WORKED
+{
+  //  getData();
+  //  manualOverrideRelay();
+
+  Serial.print(parameter);
+  Serial.print(",");
+  Serial.print(temp);
+  Serial.print(",");
+  Serial.print(relaystate);
+  Serial.print(",");
+  Serial.print(ledstate);
+  Serial.print(",");
+  Serial.print(Kp);
+  Serial.print(",");
+  Serial.print(Ki);
+  Serial.print(",");
+  Serial.println(Kd);
+
+  //  unsigned long saatini = millis();  // Get the current timestamp
+  //  if (saatini - mulaitimer >= waktukirim) {  // Check if the interval has passed
+  //    mulaitimer = saatini;                  // Update the previous timestamp
+  //    // Kirim data setiam 500ms
+  //
+  //  }
+
+  //  sevseg.setNumber(parameter, 0);
+  //  Serial.println(parameter);
+  //  sevseg.refreshDisplay();  // Must run repeatedly
 }
 
 

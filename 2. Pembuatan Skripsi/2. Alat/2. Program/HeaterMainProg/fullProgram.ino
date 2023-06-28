@@ -2,14 +2,14 @@ void otomatis() {
   if (digitalRead(buttonIncreasePin) == HIGH) {
     increaseParameter();
     digitalWrite(ledPin, HIGH);
-    delay(200);  // Debounce delay
+    delay(50);  // Debounce delay
   }
 
   // Check if the decrease button is pressed
   if (digitalRead(buttonDecreasePin) == HIGH) {
     decreaseParameter();
     digitalWrite(ledPin, HIGH);
-    delay(200);  // Debounce delay
+    delay(50);  // Debounce delay
   }
   digitalWrite(ledPin, LOW);
 
@@ -33,7 +33,7 @@ void manualOverrideRelay()
     digitalWrite(relayPin, HIGH);  // Set output pin to HIGH
     relaystate = 1;
     ledstate = 1;
-    delay(200);  // Debounce delay
+    delay(100);  // Debounce delay
   }
 
   // Check if the decrease button is pressed
@@ -43,7 +43,7 @@ void manualOverrideRelay()
     digitalWrite(relayPin, LOW);  // Set output pin to HIGH
     relaystate = 0;
     ledstate = 0;
-    delay(200);  // Debounce delay
+    delay(100);  // Debounce delay
   }
 
   if (ledstate == 1) {
@@ -54,9 +54,9 @@ void manualOverrideRelay()
   }
 
 
-  sevseg.setNumber(parameter, 0);
-  //  Serial.println(parameter);
-  sevseg.refreshDisplay();  // Must run repeatedly
+  //  sevseg.setNumber(parameter, 0);
+  //  //  Serial.println(parameter);
+  //  sevseg.refreshDisplay();  // Must run repeatedly
 }
 
 

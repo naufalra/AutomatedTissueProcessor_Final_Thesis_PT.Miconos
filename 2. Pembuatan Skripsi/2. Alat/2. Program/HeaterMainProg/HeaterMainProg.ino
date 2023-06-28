@@ -13,6 +13,21 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 int temp;
 
+
+// ========== PID =============
+#include <PID_v1.h>
+//Define Variables we'll be connecting to
+double Setpoint, Input, Output;
+
+//Specify the links and initial tuning parameters
+double Kp = 2, Ki = 5, Kd = 1;
+int valKp = Kp, valKi = Ki, valKd = Kd;
+PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
+
+int WindowSize = 5000;
+unsigned long windowStartTime;
+// ============================
+
 // Pin Definitions
 const int buttonIncreasePin = 4;
 const int buttonDecreasePin = 3;
@@ -28,29 +43,37 @@ const int limitparameterDown = 50;  // Desired limit parameter
 
 String str;
 
-
-unsigned long previoussenddata = 0;
-const long intervalsendserial = 500; // 2 seconds
+unsigned long mulaitimer = 0;     // Variable to store the previous timestamp
+const unsigned long waktukirim = 200;  // Interval in milliseconds between data retrievals
 
 void setup() {
   Serial.begin(115200);
   initiate();
+  PIDSetup();
 }
 
 void loop() {
+
+  //  sensorTest();
+  //heaterPID();
+
+
   manualOverrideRelay();
 
-  //  sendSerial(); // Call the function to send data via serial
-  //  serialDebug();
-  unsigned long currentMillis = millis();
-  if (currentMillis - previoussenddata >= intervalsendserial) {
-    previoussenddata = currentMillis; // Reset the timer
 
-    getData();
 
-    //    sendSerial(); // Call the function to send data via serial
+  unsigned long saatini = millis();  // Get the current timestamp
+  if (saatini - mulaitimer >= waktukirim) {  // Check if the interval has passed
+    mulaitimer = saatini;                  // Update the previous timestamp
+    // Kirim data setiam 500ms
+    //    sendtoSlavePID();
     serialDebug();
   }
+
+  getData();
+
+  sevseg.setNumber(parameter, 0);
+  sevseg.refreshDisplay();  // Must run repeatedly
 }
 
 
